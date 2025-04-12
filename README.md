@@ -1,34 +1,36 @@
-📊 ExchangeRate
-ExchangeRate is a .NET Core web application that provides real-time and historical exchange rate data through an interactive dashboard. The project is designed to demonstrate financial data visualization using modern web technologies, along with a layered architecture and live data streaming.
+## 📊 ExchangeRate
+ExchangeRate is a .NET Core web application that provides real-time and historical exchange rate data through a modern, responsive dashboard. The project showcases financial data visualization and live data streaming using WebSocket and SignalR technologies.
 
-✨ Features
-📈 Real-time exchange rate updates via WebSocket
+## 📌 Project Overview
+This application focuses on delivering accurate and up-to-date currency exchange information by integrating both real-time updates and historical data analysis. Users can visualize exchange rates dynamically through charts such as line, candlestick, and bubble charts.
 
-📊 Dynamic line, candlestick, and bubble charts using ApexCharts
+The architecture follows a clean N-layered structure, dividing the system into web, business, and data access layers to improve scalability, testability, and maintainability.
 
-🧱 Layered architecture with clear separation of concerns (N-layered)
+## ✨ Features
+- Real-Time Exchange Rates: Instant updates through WebSocket and SignalR
 
-🌐 Clean and responsive UI
+- Dynamic Visualizations: Line, candlestick, and bubble charts powered by ApexCharts
 
-💬 SignalR integration for seamless communication between server and client
+- N-Layered Architecture: Separation of concerns for cleaner and scalable codebase
 
-⚙️ Technologies Used
-ASP.NET Core (.NET 7+)
+- WebSocket Integration: Live data streaming from a financial data provider
 
-C#
+- Responsive UI: Optimized layout for all screen sizes
 
-WebSocket & SignalR
+- Interactive Dashboard: Users can view and monitor currency trends effectively
 
-HTML, CSS, JavaScript
+## ⚙️ Technologies Used
+- ASP.NET Core (.NET 7+)
 
-ApexCharts.js
+- C#
+
+- WebSocket & SignalR
+
+- ApexCharts.js
+
+- HTML, CSS, JavaScript
 
 Visual Studio
 
-📁 Project Structure
-Web Layer: Frontend views and SignalR hub
-
-Business Layer: Core logic and WebSocket client management
-
-Data Layer: Data processing and model definitions
-
+- Visual Studio
+  
