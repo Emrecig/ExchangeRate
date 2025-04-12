@@ -30,7 +30,5 @@ The architecture follows a clean N-layered structure, dividing the system into w
 
 - HTML, CSS, JavaScript
 
-Visual Studio
-
 - Visual Studio
   
